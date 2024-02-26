@@ -114,13 +114,9 @@
                         </svg>
 
                         <div class="text-yellow-700">{{ $event->country->name }}, {{ $event->city->name }}</div>
+                        
                     </div>
-                    <div class="text-yellow-700">
-                        {{ $event->longitude }}
-                    </div>
-                    <div class="text-yellow-700">
-                        {{ $event->latitude}}
-                    </div>
+                    <div class="text-yellow-700">{{ $weatherForecast }}</div>
                     <div class="text-yellow-700">
                         {{ $event->address }}
                     </div>
